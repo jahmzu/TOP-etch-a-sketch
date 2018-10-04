@@ -1,0 +1,109 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#container{
+   width: 100%;
+}
+
+.container {
+   border: 5px solid #00cccc;
+   display: flex;
+   justify-content: center;
+   max-width: 680px;
+   max-height: 680px;
+   min-width: 670px;
+   min-height: 670px;
+   margin: 10px auto;
+   padding: 10px 5px;
+}
+
+
+
+.tile {
+   background-color: white;
+   border-radius: 10%;
+   margin: 0.5px;
+   box-sizing: border-box;
+   
+}
+
+#menu-bar {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+#user-prompt {
+   width: auto;
+   margin: 0 auto 0 auto;
+}
+
+#user-prompt input[type=text] {
+   width: auto;
+   padding: 5px 8px;
+   border: 2px solid #aaa;
+   outline: none;
+   box-sizing: border-box;
+   margin:8px 5px;
+   border-radius: 7px;
+   transition: .2s;
+}
+
+#user-prompt input[type=text]:focus {
+   border-color: dodgerBlue;
+   box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+#other-btns {
+   width: auto;
+   margin: 5px auto;
+}
+
+
+input[type=button] {
+   width: auto;
+   padding: 5px;
+   border-radius: 10%;
+   outline: none;
+   border: none;
+   box-sizing: border-box;
+   box-shadow: 2px 2px 3px 1px #aaa;
+   transition: 0.05s;
+   margin: 0px 5px;
+}
+
+input[type=button]:hover{
+   box-shadow: 0 0 8px 0 #aaa;
+}
+
+#footer {
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   height: auto;
+   bottom: 0;
+   letter-spacing: 2px;
+   font-size: 18px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   background: #00cccc;
+   color: #fff;
+}
+
+#header {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   letter-spacing: 2px;
+   font-size: 18px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   background: #00cccc;
+   color: #fff;
+
+}
