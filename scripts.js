@@ -54,13 +54,13 @@ submitBtn.addEventListener("click", function(numOfTiles) {
    numOfTiles = Number(numOfTiles.trim());
    // tests if user input is a numnber
    if(numOfTiles%1==0 && Number.isInteger(numOfTiles) && numOfTiles != '') {
-      if(numOfTiles >= 5 && numOfTiles <=50) {
+      if(numOfTiles >= 5 && numOfTiles <=64) {
          makeGrid(numOfTiles, container2);
       } else {
-         alert("Please enter a number from 5 to 50")
+         alert("Please enter a number from 5 to 64")
       }
    } else {
-      alert("Please enter a valid number from 5 to 50");
+      alert("Please enter a valid number from 5 to 64");
    }
    document.getElementById("userInput").value = '';
 });
